@@ -1,6 +1,28 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/about/about"
-  ]
+    "pages/about/about",
+    "pages/profile/profile",
+    "pages/category/category"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "黑鸭",
+    "backgroundColor": "#fff000"
+  },
+  "tabBar": {
+    "selectedColor": "#ff0000",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "text",
+      "iconPath": "assets/tabbar/time.jpeg",
+      "selectedIconPath": "assets/tabbar/time_02.jpg"
+    }, {
+      "pagePath": "pages/about/about",
+      "text": "text",
+      "iconPath": "assets/tabbar/time_1.jpeg",
+      "selectedIconPath": "assets/tabbar/time_02.jpg"
+    }]
+  }
 }
